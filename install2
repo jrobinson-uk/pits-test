@@ -1,0 +1,9 @@
+#!/bin/bash
+
+read -rp $'\n\nDo you want to enable the camera? [Y,n]' choice 
+case $choice in  
+  n)
+  : 
+  ;;
+  *) sudo raspi-config nonint do_camera 0 ;; 
+esac
