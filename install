@@ -46,8 +46,7 @@ esac
 
 read -rp $'\n\nDo you want to enable the camera? [Y,n]' choice 
 case $choice in  
-  n) ;;
-  N) ;;
+  n|N : ;;
   *) sudo raspi-config nonint do_camera 0 ;; 
 esac
 
