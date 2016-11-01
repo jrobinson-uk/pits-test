@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Lora Gateway - Installation"
+echo -e "\n\nLora Gateway - Installation"
 echo "============================"
 sleep 2
 
