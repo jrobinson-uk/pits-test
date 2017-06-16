@@ -121,7 +121,7 @@ baud=300
 LORA_Frequency_1=434.450	
 LORA_Payload_1=CHANGEME		
 LORA_Mode_1=1
-LORA_image_packets_0=20
+LORA_image_packets_1=20
 
 #Transmitted Images
 low_width=320
